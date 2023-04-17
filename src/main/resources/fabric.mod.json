@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dynmapblockscan-fabric",
+  "version": "${version}",
+  "name": "dynmapblockscan-fabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/mckam/dynmapblockscan-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/dynmapblockscan-fabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jayemceekay.dynmapblockscanfabric.client.Dynmapblockscan_fabricClient"
+    ],
+    "main": [
+      "com.jayemceekay.dynmapblockscanfabric.DynmapBlockScanMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
